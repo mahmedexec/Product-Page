@@ -1,0 +1,143 @@
+#header-img{
+  width:100px;
+
+}
+@media (max-height: 960px) {
+#nav-bar{
+  height: 6vw;
+  align-items: center;
+}
+#header-img{
+  width:2%;
+
+}
+}
+
+#header{
+  width: 100%;
+  height: 100vh;
+  background-image : url("people.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+.nav-link{
+  font-size: 2em;color: white;
+  font-family: "PT Sans";
+  text-decoration: none;
+  margin: 1em;
+
+
+}
+
+#nav-bar{
+background-image: linear-gradient(90deg,#000000,#FF0);
+position:fixed;
+
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+top: 0px;
+}
+.heading:hover{
+  transform: skewX(-20deg);
+  background-color: rgba(255,255,255,0.9)
+}.heading-desc:hover{
+  transform: skewX(-20deg);
+  background-color: rgba(255,255,255,0.9)
+}
+
+.heading{
+  font-size: 5vmin;
+  display: inline-block;
+  padding: 0.5%;
+  position: absolute;
+  top: 60vh;
+  left: 10vw;
+  background-color: yellow;
+  font-family: "PT Sans";
+}
+.heading-desc{
+  font-size: 3vmin;
+  background-color: white;
+  position: absolute;
+  top: 70vh;
+  left: 10vw;
+  display:inline-block;
+  font-family: Sen;
+}
+main{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+align-content: center;
+}
+h2{
+  font-size: 4vmin;
+  font-family:Sen;
+}
+.containers{
+  margin:5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80vw;
+  height: auto;
+  border-style: solid;
+  border-radius: 2vh;
+  border-width:thick;
+  border-color: yellow;
+  padding: 2vh;
+
+}
+
+.container{
+  margin: 1vh;
+  padding: 1em;
+  background-color: white;
+  width: 95%;
+  font-family: Quicksand;
+  border-radius: 1vh;
+  border-color: rgba(0,0,0,0.2);
+  height: 33%;
+  font-size: 1.5vw;
+  border-style: solid;
+
+}
+.container:hover{
+  border-color: transparent;
+  box-shadow: 15px 5px  50px -30px black;
+}h3{
+  font-family: Sen;
+  font-size: 2vw;
+}
+#email{
+width: 50em;
+height: 5em;
+border-radius: 10em;
+border-style: solid;
+border-color:  rgba(0,0,0,0.2);
+}
+#submit{
+  font-size: 1.5em;
+  font-family: Sen;
+margin: 1em;
+  width: 6em;
+  height: 3.3em;
+  border-radius: 10em;
+  border-color: transparent;
+  border-style: solid;
+  background-color: yellow;
+}
+.email-address{
+  text-align: center;
+}
+#submit:hover{
+  box-shadow: 15px 5px  40px -10px rgb(200,200,0);
+}
+#email::placeholder{
+  font-size: 2em;
+}
